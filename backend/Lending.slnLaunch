@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "API + Mock external service",
+    "Projects": [
+      {
+        "Path": "mock\\Lending.MockExternalService\\Lending.MockExternalService.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "src\\Lending.Api\\Lending.Api.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

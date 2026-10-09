@@ -1,6 +1,7 @@
 # Loan application — .NET + Next.js
 
-> **Video walkthrough:** _add the public link here before sending the repository_
+> **Video walkthrough:** 
+https://www.loom.com/share/491de572ce92414ea66fa9b3f157a939
 
 A small loan flow: a form (Next.js) → a rule engine decides (.NET) → approved applications are saved in
 PostgreSQL → a background event sends the data to an external service (a mock).
